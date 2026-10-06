@@ -1,0 +1,399 @@
+{
+    "data": {
+        "basePath": "/",
+        "site": {
+            "movieName": "El samurai i el presoner",
+            "url": "https://www.adso.tv",
+            "description": "Quan el senyor Murashige Araki es rebel·la contra Nobunaga Oda, forja una aliança impossible amb l’estrateg empresonat Kanbei Kuroda. Drama i misteri de Kiyoshi Kurosawa. Estrena 23 d’octubre de 2026.",
+            "image": "assets/images/poster_cat.jpg"
+        },
+        "config": {
+            "lang": "ca",
+            "googleFontsURL": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap",
+            "fontBase": "Cormorant Garamond, Minion Pro, Georgia, serif",
+            "fontDisplay": "Bebas Neue, Univers LT Std, sans-serif",
+            "colorBase": "#e6e2d6",
+            "colorAccent": "#b5ae78",
+            "colorBgPrimary": "#0f1419",
+            "colorBgSecondary": "#1a222c",
+            "scrollMode": "horizontal-snap"
+        },
+        "menu": {
+            "logo": "/assets/images/logo_navbar_cat_2.png",
+            "langSwitch": {
+                "current": "CAT",
+                "links": [
+                    { "text": "ES", "url": "/", "active": false },
+                    { "text": "CAT", "url": "/cat/", "active": true }
+                ]
+            },
+            "links": [
+                { "text": "Sinopsi", "url": "#intro" },
+                { "text": "Tràiler", "url": "#trailer" },
+                { "text": "Fitxa", "url": "#movie-details" },
+                { "text": "Info", "url": "#sobre" },
+                { "text": "Repartiment", "url": "#reparto" },
+                { "text": "Entrevista", "url": "#entrevista" },
+                { "text": "Premis", "url": "#premios" },
+                { "text": "Galeria", "url": "#galeria" },
+                { "text": "Crítiques", "url": "#opiniones" },
+                { "text": "Premsa", "url": "https://www.adso.tv/prensa", "target": "_blank" }
+            ]
+        },
+        "sections": [
+            {
+                "type": "hero",
+                "variant": "parallax-smooth",
+                "data": {
+                    "id": "hero",
+                    "image": {
+                        "mobile": "assets/images/poster_cat.jpg",
+                        "desktop": "assets/images/fotos/still_10.jpg"
+                    },
+                    "video": "",
+                    "heroLogo": "assets/images/hero_cat.png",
+                    "subtitle": "Estrena en cinemes el 23 d’octubre de 2026",
+                    "buttons": [
+                        {
+                            "text": "Veure tràiler",
+                            "url": "#trailer",
+                            "target": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "textCentered",
+                "variant": "split-text",
+                "data": {
+                    "id": "intro",
+                    "title": "Sinopsi",
+                    "text": "Quan el senyor Murashige Araki es rebel·la contra el tirànic Nobunaga Oda, es troba assetjat dins les muralles del seu propi castell. Aïllat, s’enfronta a una sèrie de crims misteriosos. Amb l’exèrcit d’Oda cada cop més a prop i un traïdor amagat entre les seves files, Murashige es veu obligat a forjar una aliança incòmoda amb Kanbei Kuroda, un estrateg brillant però perillós que es troba empresonat a les masmorres. Amb l’ajuda de la seva esposa Chiyoho i els seus generals més lleials, Murashige ha de descobrir la veritat abans que el castell caigui.",
+                    "backgroundImage": "images/fotos/still_01.jpg"
+                }
+            },
+            {
+                "type": "video",
+                "variant": "play-on-scroll",
+                "data": {
+                    "title": "Tràiler",
+                    "id": "trailer",
+                    "youtubeId": "nLe2tQSSx68",
+                    "poster": "assets/images/fondo_poster_trailer.jpg",
+                    "backgroundImage": "images/fotos/still_20.jpg"
+                }
+            },
+            {
+                "type": "details",
+                "variant": "stagger-list",
+                "data": {
+                    "id": "movie-details",
+                    "poster": "/assets/images/poster_cat.jpg",
+                    "backgroundImage": "images/fotos/still_16.jpg",
+                    "specs": [
+                        { "label": "Títol original", "value": "Kokurôjô (Kokurojo)" },
+                        { "label": "Any", "value": "2026" },
+                        { "label": "Durada", "value": "147 min" },
+                        { "label": "Nacionalitat", "value": "Japó" },
+                        { "label": "Gènere", "value": "Drama, misteri" },
+                        { "label": "Direcció i guió", "value": "Kiyoshi Kurosawa. Basada en la novel·la Kokurojo de Honobu Yonezawa (Kadokawa)" },
+                        { "label": "Repartiment", "value": "Masahiro Motoki, Masaki Suda, Yuriko Yoshitaka, Munetaka Aoki, Ryota Miyadate, Tasuku Emoto, Joe Odagiri, Yusuke Santamaria" },
+                        { "label": "V.O.", "value": "Japonès" },
+                        { "label": "Format", "value": "DCP" },
+                        { "label": "So", "value": "5.1 Dolby Digital" },
+                        { "label": "Qualificació", "value": "En tràmit" },
+                        { "label": "Estrena en cinemes", "value": "23 d’octubre de 2026" }
+                    ]
+                }
+            },
+            {
+                "type": "custom",
+                "variant": "titleGrid",
+                "data": {
+                    "id": "sobre",
+                    "leftImage": "/assets/images/fotos/still_11.jpg",
+                    "leftImageAlt": "El samurai i el presoner - Fotograma",
+                    "leftTitle": "Sobre la pel·lícula",
+                    "leftText": "<p><strong>EL SAMURAI I EL PRESONER</strong> (Kokurôjô), escrita i dirigida per Kiyoshi Kurosawa, arriba als cinemes el <strong>23 d’octubre de 2026</strong> de la mà d’ADSO FILMS. Inspirada en la novel·la de Honobu Yonezawa, la pel·lícula formarà part de la Secció Òrbita del Festival de Sitges 2026.</p><p>Després del seu pas per Cannes Premiere 2026 i el circuit internacional (Fantasia, Sydney, Bucheon, Melbourne), consolida Kurosawa com una de les veus imprescindibles del cinema d’autor contemporani.</p>",
+                    "rightTitle": "Fenomen al Japó",
+                    "rightText": "<p>La pel·lícula s’ha convertit en un fenomen al Japó: la producció japonesa més vista del seu moment, arribant al núm. 3 de la taquilla global i recaptant més de 6 milions de dòlars.</p><p>El nou treball de l’aclamat cineasta —reconegut per títols com <em>Cure</em>, <em>Pulse</em> o <em>Tokyo Sonata</em>— construeix un relat sobri i atmosfèric en què allò històric es combina amb una mirada profundament contemporània. Silenci, espai i tensió latent defineixen un gir cap al cinema d’època sense abandonar les constants de la seva obra.</p>",
+                    "rightImage": "/assets/images/fotos/still_26.jpg",
+                    "rightImageAlt": "El samurai i el presoner - Fotograma",
+                    "aboutFilm": {
+                        "title": "Deure, identitat i misteri",
+                        "left": "<p>Quan Murashige Araki es rebel·la contra Nobunaga Oda, queda assetjat al seu propi castell. Una sèrie de crims misteriosos desencadena por i desconfiança entre les seves files. Forçat a aliar-se amb Kanbei Kuroda —estrateg brillant i perillós, empresonat a les masmorres—, ha de descobrir la veritat abans que caigui la fortalesa.</p><p>El film proposa una reflexió sobre el deure, la identitat i el pes de les decisions individuals en contextos de violència i transformació, més a prop de la guerra psicològica que del vessament de sang.</p>",
+                        "right": "<p>Basada en la novel·la <em>Kokurojo</em> de Honobu Yonezawa, l’adaptació combina drama històric jidaigeki i ficció de misteri amb una precisió gairebé quirúrgica: cada peça de l’enigma està entrellaçada de manera que, si en faltés una sola, tota la història podria venir-se’n a baix.</p><blockquote>«Avançar cap al paradís, retirar-se cap a l’infern» — frase budista que batega al cor de la pel·lícula.</blockquote>"
+                    }
+                }
+            },
+            {
+                "type": "custom",
+                "variant": "castGrid",
+                "data": {
+                    "id": "reparto",
+                    "title": "El repartiment",
+                    "items": [
+                        {
+                            "image": "/assets/images/cast/cast-motoki.jpg",
+                            "name": "Masahiro Motoki",
+                            "role": "Murashige Araki",
+                            "bio": "Un dels actors més guardonats del cinema japonès contemporani, reconegut internacionalment per protagonitzar Departures (2008), guanyadora de l’Òscar a la Millor Pel·lícula Internacional. Encarna el senyor feudal Murashige Araki, un líder militar acorralat entre la traïció interna i l’assetjament imminent."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-suda.jpg",
+                            "name": "Masaki Suda",
+                            "role": "Kanbei Kuroda",
+                            "bio": "Una de les grans figures de l’actuació al Japó i guanyador de múltiples premis de l’Acadèmia Japonesa. Després de col·laborar amb Kurosawa a Cloud (2024), interpreta Kanbei Kuroda: un brillant i imprevisible estrateg militar tancat a les masmorres."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-yoshitaka.jpg",
+                            "name": "Yuriko Yoshitaka",
+                            "role": "Chiyoho",
+                            "bio": "Actriu d’extensa trajectòria en cinema i televisió (Gantz, Yurigokoro, Snakes and Earrings). Dóna vida a Chiyoho, l’esposa de Murashige: una figura de fermesa moral les accions de la qual són clau en el destí del senyor feudal."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-odagiri.jpg",
+                            "name": "Joe Odagiri",
+                            "role": "Juemon Kori",
+                            "bio": "Actor de culte del cinema d’autor internacional (Bright Future, Air Doll) i col·laborador habitual de Kore-eda i del propi Kurosawa. Interpreta Juemon Kori, un dels generals de més confiança a la cort del castell."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-aoki.jpg",
+                            "name": "Munetaka Aoki",
+                            "role": "Kyuzaemon Araki",
+                            "bio": "Reconegut pels seus papers a la saga Rurouni Kenshin i Godzilla Minus One. Interpreta Kyuzaemon Araki."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-miyadate.jpg",
+                            "name": "Ryota Miyadate",
+                            "role": "Sukesaburo Inui",
+                            "bio": "Popular artista i membre del grup de J-Pop Snow Man. Interpreta Sukesaburo Inui."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-emoto.jpg",
+                            "name": "Tasuku Emoto",
+                            "role": "Sagehari Saika",
+                            "bio": "Destacat actor del cinema independent japonès (And Your Bird Can Sing). Interpreta Sagehari Saika."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-santamaria.jpg",
+                            "name": "Yusuke Santamaria",
+                            "role": "Akioka Shironosuke",
+                            "bio": "Actor i presentador japonès. Interpreta Akioka Shironosuke a El samurai i el presoner."
+                        }
+                    ],
+                    "director": {
+                        "title": "Sobre el director",
+                        "text": "<p>Kiyoshi Kurosawa (Kobe, 1955) és un dels autors més influents del cinema japonès contemporani. La seva filmografia transita entre el thriller, el terror psicològic i el drama, amb obres com <em>Cure</em> (1997), <em>Pulse</em> (2001) o <em>Tokyo Sonata</em> (2008), aquesta darrera guardonada a Cannes (Un Certain Regard – Premi del Jurat).</p><p>Entre els seus treballs recents destaquen <em>Cloud</em>, <em>Chime</em>, <em>Serpent’s Path</em> i <em>La dona de l’espia</em>. El seu cinema es caracteritza per una atmosfera inquietant, un ús expressiu de l’espai i una mirada única sobre l’alienació i les relacions humanes.</p><p><em>El samurai i el presoner</em> suposa una nova incursió en el seu univers creatiu, traslladant les seves inquietuds temàtiques al Japó històric del període Sengoku.</p>",
+                        "image": "/assets/images/fotos/still_34.jpg",
+                        "imageAlt": "El samurai i el presoner — Kiyoshi Kurosawa"
+                    }
+                }
+            },
+            {
+                "type": "custom",
+                "variant": "interview",
+                "data": {
+                    "id": "entrevista",
+                    "title": "Entrevista amb el director",
+                    "subtitle": "Kiyoshi Kurosawa",
+                    "pages": [
+                        {
+                            "subtitle": "Kiyoshi Kurosawa",
+                            "items": [
+                                {
+                                    "question": "Com vas arribar a llegir la novel·la de Honobu Yonezawa?",
+                                    "answer": "La novel·la havia guanyat una sèrie de premis literaris al Japó i era molt coneguda. Jo no solc llegir gaire ficció, així que no en tenia ni idea fins que la meva productora me la va recomanar. Feia temps que m’interessava el senyor feudal de l’era Sengoku, Murashige Araki. En la primera lectura em vaig adonar que era un tipus de llibre inusual al Japó: una novel·la de misteri sorprenentment lògica i meticulosament construïda. Era enormement entretinguda, i vaig sentir que adaptar-la al cinema seria un desafiament realment significatiu."
+                                },
+                                {
+                                    "question": "La novel·la combina drama històric i misteri. Com vas abordar l’adaptació?",
+                                    "answer": "En ser un misteri, la història depèn d’un crim, un mòbil i un mètode, entrellaçats de forma tan precisa que, si en faltés una sola peça, tota la història podria venir-se’n a baix. Vam haver de ser extraordinàriament curosos amb el guió. Però més enllà dels trencaclosques criminals, la gran fascinació resideix en el misteri que envolta les paraules i accions del protagonista, Murashige Araki: un senyor feudal molt diferent de qualsevol convencional del període Sengoku."
+                                },
+                                {
+                                    "question": "Com vas abordar aquesta època històrica? Realisme o estilització?",
+                                    "answer": "No volia inventar un estil nou de drama d’època. Em vaig proposar fer un jidaigeki extremadament ortodox, del tipus que avui és rar de veure. El públic contemporani ha oblidat en gran mesura els grans drames d’època de les dècades de 1940 i 1950. Alhora, aspirava a la forma clàssica contant una història contemporània. El veritable Murashige Araki tenia un pensament sorprenentment modern per al segle XVI: un protagonista ideal per parlar tant a la història del cinema com al nostre present."
+                                },
+                                {
+                                    "question": "La frase «avançar cap al paradís, retirar-se cap a l’infern» és central. Té una dimensió filosòfica o política?",
+                                    "answer": "S’origina en l’antic budisme japonès, però continua aplicant-se avui. Tothom sap quanta misèria sembren les postures absurdes de qui està al poder i es veu encadenat per aquestes mateixes paraules. En aquest sentit, la frase que pronuncia Chiyoho a prop del final —«Hi ha paradís fins i tot per a aquells que es retiren»— té una influència enorme en les accions posteriors de Murashige i un pes tremendo també per a mi."
+                                }
+                            ]
+                        },
+                        {
+                            "subtitle": "Kiyoshi Kurosawa · II",
+                            "items": [
+                                {
+                                    "question": "Com gestiones la violència a la teva posada en escena?",
+                                    "answer": "He fet moltes pel·lícules violentes, però no sóc fan de les representacions explícites. Si vols violència real, avui la trobes a YouTube; això no és cinema. La violència al cinema ha de ser real i continguda alhora. És ficció, direcció i interpretació: un moment crític que posa a prova el director i els actors. En l’instant en què comences a fer ostentació d’aquesta tècnica, una flagrant artificialitat omple la pantalla."
+                                },
+                                {
+                                    "question": "Com vas fer el càsting de Masaki Suda i Masahiro Motoki?",
+                                    "answer": "Entre els actors japonesos de trenta i pocs, senzillament no hi ha ningú més a part de Masaki Suda que pugui interpretar algú tan ambigu i complex: les veritables intencions del qual són impossibles de llegir, que pot passar de sant a vilà en un instant. Per a Murashige, Kanbei és de vegades aliat, de vegades servent i de vegades gairebé demoníac. El veritable eix, però, és Murashige: com un home d’immens poder renuncia a aquest poder i assoleix la seva llibertat. Masahiro Motoki va interpretar aquesta transformació de 180 graus amb absoluta perfecció."
+                                },
+                                {
+                                    "question": "T’identifiques més amb el samurai que vol saber o amb el presoner que busca explicar?",
+                                    "answer": "En una pel·lícula, l’autor té l’obligació d’oferir una resposta a cada misteri que planteja. Alhora, no crec necessari explicar les raons darrere de les accions del protagonista. Murashige va resolent els misteris amb precisió, però la raó per la qual finalment abandona el castell mai no s’explica. Històricament ho va fer de forma sobtada; jo simplement ho vaig retratar tal com va succeir."
+                                },
+                                {
+                                    "question": "De quines maneres connecta aquesta pel·lícula amb els teus treballs anteriors de terror?",
+                                    "answer": "No sóc un especialista en terror; sempre he aspirat a ser un artesà capaç d’abordar qualsevol gènere. Quan va arribar l’oferta d’un drama d’època basat en una gran novel·la, no hi havia opció de rebutjar-la. No tinc interès a deixar les meves empremtes dactilars en una pel·lícula. I, tanmateix, pot haver-hi algun fil conductor entre el conjunt de les meves pel·lícules i aquesta. Trobar-lo és feina de crítics i espectadors. Amb aquest nou llargmetratge, espero en silenci que torni a succeir el mateix."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "awards",
+                "variant": "list",
+                "data": {
+                    "id": "premios",
+                    "title": "Festivals i reconeixements",
+                    "backgroundImage": "images/fotos/still_35.jpg",
+                    "items": [
+                        { "text": "Festival de Cannes 2026 — Official Selection / Cannes Premiere" },
+                        { "text": "Festival de Sitges 2026 — Secció Òrbita" },
+                        { "text": "Fantasia Film Festival 2026" },
+                        { "text": "Sydney Film Festival 2026" },
+                        { "text": "Bucheon International Fantastic Film Festival 2026" },
+                        { "text": "Melbourne International Film Festival 2026" },
+                        { "text": "Producció japonesa més vista — núm. 3 taquilla global (+6 M$)" }
+                    ]
+                }
+            },
+            {
+                "type": "gallery",
+                "variant": "1",
+                "data": {
+                    "id": "galeria",
+                    "title": "Galeria",
+                    "backgroundImage": "images/fotos/still_06.jpg",
+                    "images": [
+                        { "image": "assets/images/fotos/still_01.jpg", "title": "El samurai i el presoner — 1" },
+                        { "image": "assets/images/fotos/still_02.jpg", "title": "El samurai i el presoner — 2" },
+                        { "image": "assets/images/fotos/still_04.jpg", "title": "El samurai i el presoner — 3" },
+                        { "image": "assets/images/fotos/still_06.jpg", "title": "El samurai i el presoner — 4" },
+                        { "image": "assets/images/fotos/still_08.jpg", "title": "El samurai i el presoner — 5" },
+                        { "image": "assets/images/fotos/still_10.jpg", "title": "El samurai i el presoner — 6" },
+                        { "image": "assets/images/fotos/still_11.jpg", "title": "El samurai i el presoner — 7" },
+                        { "image": "assets/images/fotos/still_16.jpg", "title": "El samurai i el presoner — 8" },
+                        { "image": "assets/images/fotos/still_18.jpg", "title": "El samurai i el presoner — 9" },
+                        { "image": "assets/images/fotos/still_20.jpg", "title": "El samurai i el presoner — 10" },
+                        { "image": "assets/images/fotos/still_23.jpg", "title": "El samurai i el presoner — 11" },
+                        { "image": "assets/images/fotos/still_26.jpg", "title": "El samurai i el presoner — 12" },
+                        { "image": "assets/images/fotos/still_34.jpg", "title": "El samurai i el presoner — 13" },
+                        { "image": "assets/images/fotos/still_36.jpg", "title": "El samurai i el presoner — 14" },
+                        { "image": "assets/images/fotos/still_38.jpg", "title": "El samurai i el presoner — 15" },
+                        { "image": "assets/images/fotos/still_42.jpg", "title": "El samurai i el presoner — 16" }
+                    ]
+                }
+            },
+            {
+                "type": "quotes",
+                "data": {
+                    "id": "opiniones",
+                    "title": "La premsa ha dit...",
+                    "background": null,
+                    "backgroundImage": "images/fotos/still_42.jpg",
+                    "quotes": [
+                        {
+                            "image": null,
+                            "text": "És alhora un misteri criminal i una èpica apassionant.",
+                            "authorName": "",
+                            "authorMedia": "THE WRAP",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Aquesta pel·lícula és una de les millors de Kurosawa.",
+                            "authorName": "",
+                            "authorMedia": "ROGEREBERT.COM",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Intel·ligent, intrigant i captivadora.",
+                            "authorName": "",
+                            "authorMedia": "SOUTH CHINA MORNING POST",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "És una obra magníficament escenificada que s’inclina més cap a la guerra psicològica que cap al vessament de sang.",
+                            "authorName": "",
+                            "authorMedia": "SCREENDAILY",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Kurosawa continua demostrant una capacitat única per generar inquietud i profunditat emocional.",
+                            "authorName": "",
+                            "authorMedia": "THE HOLLYWOOD REPORTER",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Adaptació exuberant, absorbent, refinada, captivadora i molt entretinguda.",
+                            "authorName": "",
+                            "authorMedia": "VARIETY",
+                            "linkURL": ""
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "custom",
+                "variant": "press",
+                "data": {
+                    "id": "prensa",
+                    "title": "Premsa",
+                    "backgroundImage": "images/fotos/still_18.jpg",
+                    "text": "Accedeix als materials i descarrega el pressbook.",
+                    "linkText": "Anar als materials",
+                    "linkURL": "https://www.adso.tv/prensa"
+                }
+            },
+            {
+                "type": "logosAndShare",
+                "data": {
+                    "id": "distribucion-y-comparte",
+                    "backgroundImage": "images/fotos/still_23.jpg",
+                    "logos": {
+                        "title": "Distribuït per",
+                        "logos": [
+                            {
+                                "image": "/assets/images/logo-adso.png",
+                                "title": "ADSO Films",
+                                "URL": "https://www.adso.tv",
+                                "id": ""
+                            }
+                        ]
+                    },
+                    "shareTitle": "Comparteix"
+                }
+            }
+        ],
+        "footer": {
+            "logoMovie": "",
+            "copyright": {
+                "company": "ADSO Films",
+                "logo": "",
+                "link": "https://www.adso.tv",
+                "texts": [
+                    "Copyright © ADSO Films",
+                    "YH/K/TSATP ©2026 “KOKUROJO” Film Partners",
+                    "Tots els drets reservats"
+                ]
+            },
+            "data": {
+                "id": "followUs",
+                "title": "Segueix-nos!",
+                "twitter": "https://twitter.com/Adso_Films",
+                "instagram": "https://www.instagram.com/adso_films/",
+                "facebook": "https://www.facebook.com/adsofilms/",
+                "youtube": "https://www.youtube.com/@ADSOFILMS/featured",
+                "email": "hola@adso.tv"
+            }
+        }
+    }
+}

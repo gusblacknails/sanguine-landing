@@ -1,0 +1,399 @@
+{
+    "data": {
+        "basePath": "/",
+        "site": {
+            "movieName": "El samurái y el prisionero",
+            "url": "https://www.adso.tv",
+            "description": "Cuando el señor Murashige Araki se rebela contra Nobunaga Oda, forja una alianza imposible con el estratega prisionero Kanbei Kuroda. Drama y misterio de Kiyoshi Kurosawa. Estreno 23 de octubre de 2026.",
+            "image": "assets/images/poster_esp.jpg"
+        },
+        "config": {
+            "lang": "es",
+            "googleFontsURL": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap",
+            "fontBase": "Cormorant Garamond, Minion Pro, Georgia, serif",
+            "fontDisplay": "Bebas Neue, Univers LT Std, sans-serif",
+            "colorBase": "#e6e2d6",
+            "colorAccent": "#b5ae78",
+            "colorBgPrimary": "#0f1419",
+            "colorBgSecondary": "#1a222c",
+            "scrollMode": "horizontal-snap"
+        },
+        "menu": {
+            "logo": "/assets/images/logo_navbar_cast_2.png",
+            "langSwitch": {
+                "current": "ES",
+                "links": [
+                    { "text": "ES", "url": "/", "active": true },
+                    { "text": "CAT", "url": "/cat/", "active": false }
+                ]
+            },
+            "links": [
+                { "text": "Sinopsis", "url": "#intro" },
+                { "text": "Tráiler", "url": "#trailer" },
+                { "text": "Ficha", "url": "#movie-details" },
+                { "text": "Info", "url": "#sobre" },
+                { "text": "Reparto", "url": "#reparto" },
+                { "text": "Entrevista", "url": "#entrevista" },
+                { "text": "Premios", "url": "#premios" },
+                { "text": "Galería", "url": "#galeria" },
+                { "text": "Críticas", "url": "#opiniones" },
+                { "text": "Prensa", "url": "https://www.adso.tv/prensa", "target": "_blank" }
+            ]
+        },
+        "sections": [
+            {
+                "type": "hero",
+                "variant": "parallax-smooth",
+                "data": {
+                    "id": "hero",
+                    "image": {
+                        "mobile": "assets/images/poster_esp.jpg",
+                        "desktop": "assets/images/fotos/still_10.jpg"
+                    },
+                    "video": "",
+                    "heroLogo": "assets/images/hero_cast.png",
+                    "subtitle": "Estreno en cines el 23 de Octubre de 2026",
+                    "buttons": [
+                        {
+                            "text": "Ver Tráiler",
+                            "url": "#trailer",
+                            "target": null
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "textCentered",
+                "variant": "split-text",
+                "data": {
+                    "id": "intro",
+                    "title": "Sinopsis",
+                    "text": "Cuando el señor Murashige Araki se rebela contra el tiránico Nobunaga Oda, se ve asediado entre los muros de su propio castillo. Aislado, se enfrenta a una serie de misteriosos crímenes que hacen añicos el frágil orden de su corte, sumiendo a la fortaleza en el miedo y la desconfianza. Con el ejército de Oda cada vez más cerca y un traidor escondido entre sus filas, Murashige se ve obligado a forjar una incómoda alianza con Kanbei Kuroda, un brillante pero peligroso estratega que se encuentra prisionero en las mazmorras. Con la ayuda de su esposa Chiyoho y de sus generales más leales, Murashige debe descubrir la verdad antes de que el castillo caiga.",
+                    "backgroundImage": "images/fotos/still_01.jpg"
+                }
+            },
+            {
+                "type": "video",
+                "variant": "play-on-scroll",
+                "data": {
+                    "title": "Tráiler",
+                    "id": "trailer",
+                    "youtubeId": "nLe2tQSSx68",
+                    "poster": "assets/images/fondo_poster_trailer.jpg",
+                    "backgroundImage": "images/fotos/still_20.jpg"
+                }
+            },
+            {
+                "type": "details",
+                "variant": "stagger-list",
+                "data": {
+                    "id": "movie-details",
+                    "poster": "/assets/images/poster_esp.jpg",
+                    "backgroundImage": "images/fotos/still_16.jpg",
+                    "specs": [
+                        { "label": "Título Original", "value": "Kokurôjô (Kokurojo)" },
+                        { "label": "Año", "value": "2026" },
+                        { "label": "Duración", "value": "147 min" },
+                        { "label": "Nacionalidad", "value": "Japón" },
+                        { "label": "Género", "value": "Drama, misterio" },
+                        { "label": "Dirección y guion", "value": "Kiyoshi Kurosawa. Basada en la novela Kokurojo de Honobu Yonezawa (Kadokawa)" },
+                        { "label": "Reparto", "value": "Masahiro Motoki, Masaki Suda, Yuriko Yoshitaka, Munetaka Aoki, Ryota Miyadate, Tasuku Emoto, Joe Odagiri, Yusuke Santamaria" },
+                        { "label": "V.O.", "value": "Japonés" },
+                        { "label": "Formato", "value": "DCP" },
+                        { "label": "Sonido", "value": "5.1 Dolby Digital" },
+                        { "label": "Calificación", "value": "En trámite" },
+                        { "label": "Estreno en cines", "value": "23 de octubre de 2026" }
+                    ]
+                }
+            },
+            {
+                "type": "custom",
+                "variant": "titleGrid",
+                "data": {
+                    "id": "sobre",
+                    "leftImage": "/assets/images/fotos/still_11.jpg",
+                    "leftImageAlt": "El samurái y el prisionero - Fotograma",
+                    "leftTitle": "Sobre la película",
+                    "leftText": "<p><strong>EL SAMURÁI Y EL PRISIONERO</strong> (Kokurôjô), escrita y dirigida por Kiyoshi Kurosawa, llega a los cines el <strong>23 de octubre de 2026</strong> de la mano de ADSO FILMS. Inspirada en la novela de Honobu Yonezawa, la película formará parte de la Sección Òrbita del Festival de Sitges 2026.</p><p>Tras su paso por Cannes Premiere 2026 y el circuito internacional (Fantasia, Sydney, Bucheon, Melbourne), consolida a Kurosawa como una de las voces imprescindibles del cine de autor contemporáneo.</p>",
+                    "rightTitle": "Fenómeno en Japón",
+                    "rightText": "<p>La película se ha convertido en un fenómeno en Japón: la producción japonesa más vista de su momento, alcanzando el nº 3 en la taquilla global y recaudando más de 6 millones de dólares.</p><p>El nuevo trabajo del aclamado cineasta —reconocido por títulos como <em>Cure</em>, <em>Pulse</em> o <em>Tokyo Sonata</em>— construye un relato sobrio y atmosférico en el que lo histórico se combina con una mirada profundamente contemporánea. Silencio, espacio y tensión latente definen un giro hacia el cine de época sin abandonar las constantes de su obra: la condición humana, el conflicto moral y las tensiones invisibles entre sus personajes.</p>",
+                    "rightImage": "/assets/images/fotos/still_26.jpg",
+                    "rightImageAlt": "El samurái y el prisionero - Fotograma",
+                    "aboutFilm": {
+                        "title": "Deber, identidad y misterio",
+                        "left": "<p>Cuando Murashige Araki se rebela contra Nobunaga Oda, queda sitiado en su propio castillo. Una serie de crímenes misteriosos desata el miedo y la desconfianza entre sus filas. Forzado a aliarse con Kanbei Kuroda —estratega brillante y peligroso, prisionero en las mazmorras—, debe descubrir la verdad antes de que caiga la fortaleza.</p><p>El film propone una reflexión sobre el deber, la identidad y el peso de las decisiones individuales en contextos de violencia y transformación, más cerca de la guerra psicológica que del derramamiento de sangre.</p>",
+                        "right": "<p>Basada en la novela <em>Kokurojo</em> de Honobu Yonezawa, la adaptación combina drama histórico jidaigeki y ficción de misterio con una precisión casi quirúrgica: cada pieza del enigma está entrelazada de forma que, si faltara una sola, toda la historia podría venirse abajo.</p><blockquote>«Avanzar hacia el paraíso, retirarse hacia el infierno» — frase budista que late en el corazón de la película.</blockquote>"
+                    }
+                }
+            },
+            {
+                "type": "custom",
+                "variant": "castGrid",
+                "data": {
+                    "id": "reparto",
+                    "title": "El reparto",
+                    "items": [
+                        {
+                            "image": "/assets/images/cast/cast-motoki.jpg",
+                            "name": "Masahiro Motoki",
+                            "role": "Murashige Araki",
+                            "bio": "Uno de los actores más laureados del cine japonés contemporáneo, reconocido internacionalmente por protagonizar Despedidas (Departures, 2008), ganadora del Óscar a la Mejor Película Internacional. Encarna al señor feudal Murashige Araki, un líder militar acorralado entre la traición interna y el asedio inminente."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-suda.jpg",
+                            "name": "Masaki Suda",
+                            "role": "Kanbei Kuroda",
+                            "bio": "Una de las grandes figuras de la actuación en Japón y ganador de múltiples premios de la Academia Japonesa. Tras colaborar con Kurosawa en Cloud (2024), interpreta a Kanbei Kuroda: un brillante e impredecible estratega militar encerrado en las mazmorras, calculador resolutor de los misterios que sacuden la fortaleza."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-yoshitaka.jpg",
+                            "name": "Yuriko Yoshitaka",
+                            "role": "Chiyoho",
+                            "bio": "Actriz de extensa trayectoria en cine y televisión (Gantz, Yurigokoro, Snakes and Earrings). Da vida a Chiyoho, la esposa de Murashige: una figura de firmeza moral cuyas acciones resultan clave en el destino del señor feudal."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-odagiri.jpg",
+                            "name": "Joe Odagiri",
+                            "role": "Juemon Kori",
+                            "bio": "Actor de culto del cine de autor internacional (Bright Future, Air Doll) y colaborador habitual de Kore-eda y del propio Kurosawa. Interpreta a Juemon Kori, uno de los generales de mayor confianza en la corte del castillo."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-aoki.jpg",
+                            "name": "Munetaka Aoki",
+                            "role": "Kyuzaemon Araki",
+                            "bio": "Reconocido por sus papeles en la saga Rurouni Kenshin y Godzilla Minus One. Interpreta a Kyuzaemon Araki."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-miyadate.jpg",
+                            "name": "Ryota Miyadate",
+                            "role": "Sukesaburo Inui",
+                            "bio": "Popular artista y miembro del grupo de J-Pop Snow Man. Interpreta a Sukesaburo Inui."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-emoto.jpg",
+                            "name": "Tasuku Emoto",
+                            "role": "Sagehari Saika",
+                            "bio": "Destacado actor del cine independiente japonés (And Your Bird Can Sing). Interpreta a Sagehari Saika."
+                        },
+                        {
+                            "image": "/assets/images/cast/cast-santamaria.jpg",
+                            "name": "Yusuke Santamaria",
+                            "role": "Akioka Shironosuke",
+                            "bio": "Actor y presentador japonés. Interpreta a Akioka Shironosuke en El samurái y el prisionero."
+                        }
+                    ],
+                    "director": {
+                        "title": "Sobre el director",
+                        "text": "<p>Kiyoshi Kurosawa (Kobe, 1955) es uno de los autores más influyentes del cine japonés contemporáneo. Su filmografía transita entre el thriller, el terror psicológico y el drama, con obras como <em>Cure</em> (1997), <em>Pulse</em> (2001) o <em>Tokyo Sonata</em> (2008), esta última galardonada en Cannes (Un Certain Regard – Premio del Jurado).</p><p>Entre sus trabajos recientes destacan <em>Cloud</em>, <em>Chime</em>, <em>Serpent’s Path</em> y <em>La mujer del espía</em>. Su cine se caracteriza por una atmósfera inquietante, un uso expresivo del espacio y una mirada única sobre la alienación y las relaciones humanas.</p><p><em>El samurái y el prisionero</em> supone una nueva incursión en su universo creativo, trasladando sus inquietudes temáticas al Japón histórico del periodo Sengoku.</p>",
+                        "image": "/assets/images/fotos/still_34.jpg",
+                        "imageAlt": "El samurái y el prisionero — Kiyoshi Kurosawa"
+                    }
+                }
+            },
+            {
+                "type": "custom",
+                "variant": "interview",
+                "data": {
+                    "id": "entrevista",
+                    "title": "Entrevista con el director",
+                    "subtitle": "Kiyoshi Kurosawa",
+                    "pages": [
+                        {
+                            "subtitle": "Kiyoshi Kurosawa",
+                            "items": [
+                                {
+                                    "question": "¿Cómo llegaste a leer la novela de Honobu Yonezawa?",
+                                    "answer": "La novela había ganado una serie de premios literarios en Japón y era muy conocida. Yo no suelo leer mucha ficción, así que no tenía ni idea hasta que mi productora me la recomendó. Llevaba tiempo interesado en el señor feudal de la era Sengoku, Murashige Araki. En mi primera lectura me di cuenta de que era un tipo de libro inusual para Japón: una novela de misterio sorprendentemente lógica y meticulosamente construida. Era enormemente entretenida, y sentí que adaptarla al cine sería un desafío realmente significativo."
+                                },
+                                {
+                                    "question": "La novela combina drama histórico y misterio. ¿Cómo abordaste la adaptación?",
+                                    "answer": "Al ser un misterio, la historia depende de un crimen, un móvil y un método, entrelazados de forma tan precisa que, si faltara una sola pieza, toda la historia podría venirse abajo. Tuvimos que ser extraordinariamente cuidadosos con el guion. Pero más allá de los rompecabezas criminales, la mayor fascinación reside en el misterio que rodea las palabras y acciones del protagonista, Murashige Araki: un señor feudal muy distinto a cualquier convencional del periodo Sengoku."
+                                },
+                                {
+                                    "question": "¿Cómo abordaste esta época histórica? ¿Realismo o estilización?",
+                                    "answer": "No quería inventar un estilo nuevo de drama de época. Me propuse hacer un jidaigeki extremadamente ortodoxo, del tipo que hoy es raro de ver. El público contemporáneo ha olvidado en gran medida los grandes dramas de época de las décadas de 1940 y 1950. Al mismo tiempo, aspiraba a la forma clásica contando una historia contemporánea. El verdadero Murashige Araki tenía un pensamiento sorprendentemente moderno para el siglo XVI: un protagonista ideal para hablar tanto a la historia del cine como a nuestro presente."
+                                },
+                                {
+                                    "question": "La frase «avanzar hacia el paraíso, retirarse hacia el infierno» es central. ¿Tiene una dimensión filosófica o política?",
+                                    "answer": "Se origina en el antiguo budismo japonés, pero sigue aplicándose hoy. Todo el mundo sabe cuánta miseria siembran las posturas absurdas de quienes están en el poder y se ven encadenados por esas mismas palabras. En ese sentido, la frase que pronuncia Chiyoho cerca del final —«Hay paraíso incluso para aquellos que se retiran»— tiene una influencia enorme en las acciones posteriores de Murashige y un peso tremendo para mí también."
+                                }
+                            ]
+                        },
+                        {
+                            "subtitle": "Kiyoshi Kurosawa · II",
+                            "items": [
+                                {
+                                    "question": "¿Cómo gestionas la violencia en tu puesta en escena?",
+                                    "answer": "He hecho muchas películas violentas, pero no soy fan de las representaciones explícitas. Si quieres violencia real, hoy la encuentras en YouTube; eso no es cine. La violencia en el cine tiene que ser real y contenida al mismo tiempo. Es ficción, dirección e interpretación: un momento crítico que pone a prueba al director y a los actores. En el instante en que empiezas a alardear de esa técnica, una flagrante artificialidad llena la pantalla."
+                                },
+                                {
+                                    "question": "¿Cómo hiciste el casting de Masaki Suda y Masahiro Motoki?",
+                                    "answer": "Entre los actores japoneses de treinta y pocos, simplemente no hay nadie más aparte de Masaki Suda que pueda interpretar a alguien tan ambiguo y complejo: cuyas verdaderas intenciones son imposibles de leer, que puede pasar de santo a villano en un instante. Para Murashige, Kanbei es a veces aliado, a veces sirviente y a veces algo casi demoníaco. El verdadero eje, sin embargo, es Murashige: cómo un hombre de inmenso poder renuncia a ese poder y alcanza su libertad. Masahiro Motoki interpretó esa transformación de 180 grados con absoluta perfección."
+                                },
+                                {
+                                    "question": "¿Te identificas más con el samurái que quiere saber o con el prisionero que busca explicar?",
+                                    "answer": "En una película, el autor tiene la obligación de ofrecer una respuesta a cada misterio que plantea. Al mismo tiempo, no creo necesario explicar las razones detrás de las acciones del protagonista. Murashige va resolviendo los misterios con precisión, pero la razón por la que finalmente abandona el castillo nunca se explica. Históricamente lo hizo de forma repentina; yo simplemente lo retraté tal como sucedió."
+                                },
+                                {
+                                    "question": "¿De qué maneras conecta esta película con tus trabajos anteriores de terror?",
+                                    "answer": "No soy un especialista en terror; siempre he aspirado a ser un artesano capaz de abordar cualquier género. Cuando llegó la oferta de un drama de época basado en una gran novela, no había opción de rechazarla. No tengo interés en dejar mis huellas dactilares en una película. Y, sin embargo, puede haber algún hilo conductor entre el conjunto de mis películas y esta. Encontrarlo es trabajo de críticos y espectadores. Con este nuevo largometraje, espero en silencio que vuelva a suceder lo mismo."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "awards",
+                "variant": "list",
+                "data": {
+                    "id": "premios",
+                    "title": "Festivales y reconocimientos",
+                    "backgroundImage": "images/fotos/still_35.jpg",
+                    "items": [
+                        { "text": "Festival de Cannes 2026 — Official Selection / Cannes Premiere" },
+                        { "text": "Festival de Sitges 2026 — Sección Òrbita" },
+                        { "text": "Fantasia Film Festival 2026" },
+                        { "text": "Sydney Film Festival 2026" },
+                        { "text": "Bucheon International Fantastic Film Festival 2026" },
+                        { "text": "Melbourne International Film Festival 2026" },
+                        { "text": "Producción japonesa más vista — nº 3 taquilla global (+6 M$)" }
+                    ]
+                }
+            },
+            {
+                "type": "gallery",
+                "variant": "1",
+                "data": {
+                    "id": "galeria",
+                    "title": "Galería",
+                    "backgroundImage": "images/fotos/still_06.jpg",
+                    "images": [
+                        { "image": "assets/images/fotos/still_01.jpg", "title": "El samurái y el prisionero — 1" },
+                        { "image": "assets/images/fotos/still_02.jpg", "title": "El samurái y el prisionero — 2" },
+                        { "image": "assets/images/fotos/still_04.jpg", "title": "El samurái y el prisionero — 3" },
+                        { "image": "assets/images/fotos/still_06.jpg", "title": "El samurái y el prisionero — 4" },
+                        { "image": "assets/images/fotos/still_08.jpg", "title": "El samurái y el prisionero — 5" },
+                        { "image": "assets/images/fotos/still_10.jpg", "title": "El samurái y el prisionero — 6" },
+                        { "image": "assets/images/fotos/still_11.jpg", "title": "El samurái y el prisionero — 7" },
+                        { "image": "assets/images/fotos/still_16.jpg", "title": "El samurái y el prisionero — 8" },
+                        { "image": "assets/images/fotos/still_18.jpg", "title": "El samurái y el prisionero — 9" },
+                        { "image": "assets/images/fotos/still_20.jpg", "title": "El samurái y el prisionero — 10" },
+                        { "image": "assets/images/fotos/still_23.jpg", "title": "El samurái y el prisionero — 11" },
+                        { "image": "assets/images/fotos/still_26.jpg", "title": "El samurái y el prisionero — 12" },
+                        { "image": "assets/images/fotos/still_34.jpg", "title": "El samurái y el prisionero — 13" },
+                        { "image": "assets/images/fotos/still_36.jpg", "title": "El samurái y el prisionero — 14" },
+                        { "image": "assets/images/fotos/still_38.jpg", "title": "El samurái y el prisionero — 15" },
+                        { "image": "assets/images/fotos/still_42.jpg", "title": "El samurái y el prisionero — 16" }
+                    ]
+                }
+            },
+            {
+                "type": "quotes",
+                "data": {
+                    "id": "opiniones",
+                    "title": "La prensa ha dicho...",
+                    "background": null,
+                    "backgroundImage": "images/fotos/still_42.jpg",
+                    "quotes": [
+                        {
+                            "image": null,
+                            "text": "Es a la vez un misterio criminal y una epopeya fascinante.",
+                            "authorName": "",
+                            "authorMedia": "THE WRAP",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Esta película magistral es una de las mejores de Kurosawa.",
+                            "authorName": "",
+                            "authorMedia": "ROGEREBERT.COM",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Inteligente, intrigante y cautivadora.",
+                            "authorName": "",
+                            "authorMedia": "SOUTH CHINA MORNING POST",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Una obra magníficamente montada que se inclina más hacia la guerra psicológica que hacia el derramamiento de sangre.",
+                            "authorName": "",
+                            "authorMedia": "SCREENDAILY",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Kurosawa sigue demostrando una capacidad única para generar inquietud y profundidad emocional.",
+                            "authorName": "",
+                            "authorMedia": "THE HOLLYWOOD REPORTER",
+                            "linkURL": ""
+                        },
+                        {
+                            "image": null,
+                            "text": "Adaptación exuberante, absorbente, de estilo depurado, cautivadora y muy entretenida.",
+                            "authorName": "",
+                            "authorMedia": "VARIETY",
+                            "linkURL": ""
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "custom",
+                "variant": "press",
+                "data": {
+                    "id": "prensa",
+                    "title": "Prensa",
+                    "backgroundImage": "images/fotos/still_18.jpg",
+                    "text": "Accede a materiales y descarga el pressbook.",
+                    "linkText": "Ir a materiales",
+                    "linkURL": "https://www.adso.tv/prensa"
+                }
+            },
+            {
+                "type": "logosAndShare",
+                "data": {
+                    "id": "distribucion-y-comparte",
+                    "backgroundImage": "images/fotos/still_23.jpg",
+                    "logos": {
+                        "title": "Distribuido por",
+                        "logos": [
+                            {
+                                "image": "/assets/images/logo-adso.png",
+                                "title": "ADSO Films",
+                                "URL": "https://www.adso.tv",
+                                "id": ""
+                            }
+                        ]
+                    },
+                    "shareTitle": "Comparte"
+                }
+            }
+        ],
+        "footer": {
+            "logoMovie": "",
+            "copyright": {
+                "company": "ADSO Films",
+                "logo": "",
+                "link": "https://www.adso.tv",
+                "texts": [
+                    "Copyright © ADSO Films",
+                    "YH/K/TSATP ©2026 “KOKUROJO” Film Partners",
+                    "Todos los derechos reservados"
+                ]
+            },
+            "data": {
+                "id": "followUs",
+                "title": "¡Síguenos!",
+                "twitter": "https://twitter.com/Adso_Films",
+                "instagram": "https://www.instagram.com/adso_films/",
+                "facebook": "https://www.facebook.com/adsofilms/",
+                "youtube": "https://www.youtube.com/@ADSOFILMS/featured",
+                "email": "hola@adso.tv"
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+node_modules/
+public/*
+src/assets/images/gallery/*
+src/assets/images/top_15/*
+src/assets/images/fotos/**
